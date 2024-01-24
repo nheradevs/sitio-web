@@ -1,0 +1,11 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+aside {
+    width: 200px;
+    border: 0;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+}
