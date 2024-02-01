@@ -38,7 +38,7 @@ body {
     font-size: 1rem;
     display: flex;
     justify-content: center;
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.8);
   }
 
 .nav-princ a {
@@ -48,7 +48,7 @@ body {
 }
 
 .image-bg {
-    background-image: url("https://images.unsplash.com/photo-1603126004278-b16e5c373064?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("https://images.unsplash.com/photo-1601506521793-dc748fc80b67?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     min-height: 380px;
     background-position: center;
     background-repeat: no-repeat;
