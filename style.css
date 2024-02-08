@@ -1,9 +1,9 @@
 :root {
     --blanco: #ffffff;
-    --oscuro: #3d709e;
+    --oscuro: #484554;
     --primario: #6191e9;
     --secundario: #95548e;
-    --gris: #a0acbd;
+    --gris: #527185;
     --fuentePrincipal: 2rem;
 }
 
@@ -11,14 +11,36 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
 }
-
-.super-text {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 20rem;
+  
+.back-img {
+    background-image: url(images/back.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 19rem;
+    background-repeat: no-repeat;
 }
+
+header .top-content {
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 100%;
+    max-height: 45px;
+  }
+
+.nav-princ {
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+  }
+  
+.nav-princ a {
+    text-decoration: none;
+    color: var(--blanco);
+  }
 
 .titulo {
     text-align: center;
@@ -32,33 +54,15 @@ body {
     color: var(--blanco);
 }
 
-.nav-princ {
-    color: var(--blanco);
-    padding: 14px 16px;
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    background-color: rgba(255,255,255,0.8);
-  }
-
-.nav-princ a {
-    margin: auto 1rem;
-    color: var(--oscuro);
-    text-decoration: none;
-}
-
-.image-bg {
-    background-image: url("https://images.unsplash.com/photo-1601506521793-dc748fc80b67?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    min-height: 380px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+p {
+    color: var(--gris);
 }
 
 .orden {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 40px;
+    list-style-type: none;
 }
 
 a {
@@ -67,6 +71,34 @@ a {
 
 footer {
     text-align: center;
-    color: var(--oscuro);
+    color: var(--blanco);
+    padding-top: 1rem;
 }
 
+.nombres {
+    color: var(--oscuro);
+    padding-left: 2.5rem;
+}
+
+.to-guille {
+    color: var(--gris);
+    padding-left: 2.5rem;
+}
+
+.to-q {
+    color: var(--gris);
+    padding-left: 2.5rem;
+}
+
+.to-chris {
+    color: var(--gris);
+    padding-left: 2.5rem;
+}
+
+/* Estilos para las imágenes */
+
+.hs {
+    border-radius: 8px;
+    max-width: 100%;
+    max-height: 250px;
+}
