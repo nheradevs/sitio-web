@@ -12,6 +12,20 @@ body {
     font-size: 1rem;
     margin: 0;
 }
+
+footer {
+    text-align: center;
+    color: var(--blanco);
+    padding-top: 1rem;
+}
+
+p {
+    color: var(--gris);
+}
+
+a {
+    text-decoration: none;
+}
   
 .back-img {
     background-image: url(images/back.jpg);
@@ -88,20 +102,6 @@ header .top-content {
     border-radius: 8px;
     max-width: 100%;
     max-height: 250px;
-}
-
-footer {
-    text-align: center;
-    color: var(--blanco);
-    padding-top: 1rem;
-}
-
-p {
-    color: var(--gris);
-}
-
-a {
-    text-decoration: none;
 }
 
 
